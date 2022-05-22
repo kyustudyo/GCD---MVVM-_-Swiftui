@@ -35,7 +35,6 @@ extension ContentView {
         @Published var isBackgroundYello = false
         @Published var data = "GCD"
         func fetchData(){
-            
             DispatchQueue.global().async {
                 sleep(4)
                 let data = "GCD Fetch"
